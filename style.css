@@ -89,45 +89,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	color: rgba(255,255,255,1);
 }
 
-/* = Full Width Blocs 
--------------------------------------------------------------- */
-
-.full-width-bloc{
-	padding-left:0;
-	padding-right:0;
-}
-.full-width-bloc .container{
-	width:100%;
-	max-width:100%!important;
-}
-.full-width-bloc .carousel img{
-	width:100%;
-	height:auto;
-}
-.full-width-bloc .navbar{
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-
-/* Group Styles */
-
-.bloc-group{
-	display:flex;
-}
-.bloc-tile-2{
-	width:50%;
-}
-.bloc-tile-3{
-	width:33.33333333%;
-}
-.bloc-tile-4{
-	width:25%;
-}
-.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
-	width:100%;
-}
-
 
 /* Background Effects */
 
@@ -219,9 +180,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 .voffset{
 	margin-top:30px;
-}
-.voffset-md{
-	margin-top:50px;
 }
 
 /* Bloc text custom styling */
