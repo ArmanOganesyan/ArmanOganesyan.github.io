@@ -368,6 +368,10 @@ nav .caret{
 	margin: 6px -5px 0 0!important;
 	float: right;
 }
+.hero .hero-nav{
+	padding-left:inherit;
+	padding-right:inherit;
+}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -657,8 +661,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-gradient-red-linear-violet-1920x1080-c2-ff0000-aa1ff5-a-45-f-14{
-	background-image:url("img/gradient-red-linear-violet-1920x1080-c2-ff0000-aa1ff5-a-45-f-14.svg");
+.bg-images{
+	background-image:url("img/images.jpg");
 }
 
 
