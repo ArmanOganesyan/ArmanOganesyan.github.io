@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Domine&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/lazysizes.min.js" defer></script>
+    <title>Registration</title>
+
+    
+<!-- Google Analytics -->
+ 
+<!-- Google Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc l-bloc bgc-white full-width-bloc sticky-nav" id="bloc-0">
+	<div class="container">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand ltc-black logo" href="index.html"><img src="img/headfav.png" alt="logo" />ZoomZoomLove.com</a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav listmenu">
+					<li>
+						<a href="index.html" target="_blank">Home</a>
+					</li>
+					<li>
+						<a href="girls.html" target="_blank">Girls</a>
+					</li>
+					<li>
+						<a href="mens.html" target="_blank">Mens</a>
+					</li>
+					<li>
+						<a href="registration.html" target="_blank">Registration</a>
+					</li>
+					<li>
+						<a href="tourism.html" target="_blank">Tourism</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-282 -->
+<div class="bloc bgc-white bg-registr d-bloc none full-width-bloc b-parallax " id="bloc-282">
+	<div class="container bloc-lg">
+		<div class="row reg">
+			<div class="col-sm-12">
+				<h3 class="mg-md tc-white text-center">
+					You have a chance to book a place and be TOP for one day or as much as you want.<br>Be in top is at extra charge for each day. <br>If you have questions regarding this, please, feel free to contact us via <br> email:office@zoomzoomlove.com<br>
+				</h3>
+			</div>
+		</div>
+					<style>
+				
+#feedback-form { 
+  max-width: 550px;
+  padding: 2%;
+  border-radius: 3px;
+  background: rgba(0,0,0,.2);  
+}
+#feedback-form label { 
+  float: left;
+  display: block;
+  clear: right;
+  color: white;
+}
+#feedback-form .w100 { 
+  float: right;
+  max-width: 400px;
+  width: 97%;
+  margin-bottom: 1em;
+  color:black;
+  padding: 1.5%;
+}
+#feedback-form .border { 
+  border-radius: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000 #000000 #000000;
+  box-shadow: 0 1px 1px rgba(255,255,255,.5), 0 1px 1px rgba(0,0,0,.1) inset;
+}
+#feedback-form .border:focus {
+  outline: none;
+  border-color: #abd9f1 #bfe3f7 #bfe3f7;
+}
+#feedback-form .border:hover {
+  border-color: #7eb4ea #97cdea #97cdea;
+}
+#feedback-form .border:focus::-moz-placeholder { 
+  color: transparent;
+}
+#feedback-form .border:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+#feedback-form .border:not(:focus):not(:hover):valid { 
+  opacity: .8;
+}
+#submitFF { 
+  padding: 2%;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  background: black;
+  color: #fff;
+}
+#feedback-form br {
+  height: 0;
+  clear: both;
+}
+#submitFF:focus {
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+.colortextadd {
+    color: white; 
+   }
+</style>
+<p><center>
+<form enctype="multipart/form-data" method="post" id="feedback-form">
+<label for="nameFF">Name:</label> 
+<input type="text" name="nameFF" id="nameFF" required placeholder="for example, Mark " x-autocompletetype="name" class="w100 border">
+<label for="contactFF">Email:</label>
+<input type="email" name="contactFF" id="contactFF" required placeholder="for example, mark@gmail.com" x-autocompletetype="email" class="w100 border">
+<label for="fileFF">Add file :</label>
+<input type="file" name="fileFF[]" multiple id="fileFF" class="w100">
+<label for="messageFF">Message:</label>
+<textarea name="messageFF" id="messageFF" required rows="5" placeholder="Message" class="w100 border"></textarea>
+<br>
+<input value="Send" type="submit" id="submitFF">
+</form>
+</center>
+<script>
+document.getElementById('feedback-form').addEventListener('submit', function(evt){
+  var http = new XMLHttpRequest(), f = this;
+  evt.preventDefault();
+  http.open("POST", "contacts.php", true);
+  http.onreadystatechange = function() {
+    if (http.readyState == 4 && http.status == 200) {
+      alert(http.responseText);
+      if (http.responseText.indexOf(f.nameFF.value) == 0) { // очистить поле сообщения, если в ответе первым словом будет имя отправителя
+        f.messageFF.removeAttribute('value');
+        f.messageFF.value='';
+      }
+    }
+  }
+  http.onerror = function() {
+    alert('Извините, данные не были переданы');
+  }
+  http.send(new FormData(f));
+}, false);
+</script>
+	</div>
+	
+	
+</div>
+	
+<!-- bloc-282 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- Footer - bloc-283 -->
+<div class="bloc bgc-black d-bloc" id="bloc-283">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="mg-md text-center  tc-white">
+					Any questions 24/7 <br>office@zoomzoomlove.com<br>
+				</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-283 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+</body>
+</html>
